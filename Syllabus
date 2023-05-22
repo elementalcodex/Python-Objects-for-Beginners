@@ -1,0 +1,21 @@
+This series focus on the __builtins__ module of python.  These are all the objects (functions and variables) that are available without any imports.  It is an exploratory class where we don't use loops or the if statement and instead look at the functionality that is available out of the box for various types of objects.  I teach loops and the if statement and classes and all that great stuff but not in this class.
+Week 1
+Colab Basics, What are objects?, exploring __builtins__, internet help, 'dir', 'type', 'print',  
+Week 2 
+Integers, literals,   'int', 'abs' , 'divmod',
+Week 3
+Decimals, 'float', 'pow', 'round',
+Week 4
+Strings,  'str', 'input', f' formatting',  'sorted', 'reversed',
+Week 5 
+Unicode Characters and emojis', 'ascii', 'chr', 'ord',
+Week 6
+Lists, 'list', 'len', 'max', 'min', 'sum', 'range',
+Week 7
+Booleans, 'bool', 'True', 'False',
+Week 8
+Sets and Tuples, 'set', 'tuple',
+Week 9
+Dictionaries, 'dict',  'zip'
+Week 10
+Elements of programming languages, what's next?, 'open', 'with', 'breakpoint',
