@@ -1,4 +1,4 @@
-This series focus on the __builtins__ module of python.  These are all the objects (functions and variables) that are available without any imports.  It is an exploratory class where we don't use loops or the if statement and instead look at the functionality that is available out of the box for various types of objects.  When we do get to tose programming structures our understanding will be deeper and we will be able to progress more quickly.
+This series focus on the __builtins__ module of python.  These are all the objects (functions and variables) that are available without any imports.  It is an exploratory class where we don't use loops or the if statement and instead look at the functionality that is available out of the box for various types of objects.  When we do get to those programming structures our understanding will be deeper and we will be able to progress more quickly.
 ## Week 1
 Colab Basics, What are objects?, exploring __builtins__, internet help, 'dir', 'type', 'print',  
 ## Week 2 
