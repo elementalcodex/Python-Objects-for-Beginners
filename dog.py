@@ -9,3 +9,4 @@ class Dog:
   def bark(self):
     display(Audio('barks.wav', autoplay=True))
     time.sleep(2)
+print('woof')
