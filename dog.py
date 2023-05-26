@@ -11,4 +11,4 @@ class Dog:
   def whimper(self):
     self.sound('/content/Python-Objects-for-Beginners/whimpers.wav')
   def sniff(self):
-    self.sound('/content/Python-Objects-for-Beginners/sniffs.wav)
+    self.sound('/content/Python-Objects-for-Beginners/sniffs.wav')
