@@ -8,7 +8,7 @@ class Dog:
   def sound(self, sound_name):
     display(Audio('/content/Python-Objects-for-Beginners/dogsounds' + sound_name, autoplay=True))
     time.sleep(2)
-  def image(self,img)
+  def image(self,img):
     i = Image.open('/content/Python-Objects-for-Beginners/dogpics' + img)
     i.show()
     time.sleep(2)
