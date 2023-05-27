@@ -19,11 +19,11 @@ class Dog:
   def sniff(self):
     self.sound('sniffs.wav')
   def eat_cake(self):
-    self.image('cake'+ rint(1,4))
+    self.image('cake'+ str(rint(1,4)) + '.jpg')
   def jump_hoop(self):
-    self.image('hoop'+ rint(1,4))
+    self.image('hoop'+ str(rint(1,4)) + '.jpg')
   def swim(self):
-    self.image('swim' + rint(1,4))
+    self.image('swim' + str(rint(1,4)) + '.jpg')
   def sleep(self):
-    self.image('sleep' + rint(1,4))
+    self.image('sleep' + str(rint(1,4)) + '.jpg')
 
