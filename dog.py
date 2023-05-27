@@ -16,4 +16,5 @@ class Dog:
   def eat_cake(self):
     i = Image.open('/content/Python-Objects-for-Beginners/7.jpg')
     i.show()
+    time.sleep(2)
 
