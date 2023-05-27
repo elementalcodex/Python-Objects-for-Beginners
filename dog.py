@@ -1,6 +1,7 @@
 import sys
 import time
 from IPython.display import Audio, display
+from PIL import Image
 
 class Dog:
   def sound(self, sound_name):
@@ -12,3 +13,7 @@ class Dog:
     self.sound('/content/Python-Objects-for-Beginners/whimpers.wav')
   def sniff(self):
     self.sound('/content/Python-Objects-for-Beginners/sniffs.wav')
+  def eat_cake(self):
+    i = Image.open('/content/Python-Objects-for-Beginners/7.jpg')
+    i.show()
+
