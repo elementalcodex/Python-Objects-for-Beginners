@@ -5,6 +5,15 @@ from PIL import Image
 from random import randint as rint
 
 class Dog:
+  """ This is the Dog class.  It defines what a dog object is. \n 
+  The value of a dog object is it's health, happiness, and energy."""
+  def __init__(self):
+    self.health = 50
+    self.energy = 50
+    self.happiness = 50
+  def __str__(self):
+    s = f'Dog\'s Status: \nHealth: {self.health}\nEnergy: {self.energy}\nHappiness: {self.happiness}'
+    return s
   def sound(self, sound_name):
     display(Audio('/content/Python-Objects-for-Beginners/dogsounds/' + sound_name, autoplay=True))
     time.sleep(2)
