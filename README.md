@@ -1,4 +1,4 @@
 # Python-Objects-for-Beginners #
-These are the files for the 10 week class.
+These are the files for week 2
 
 
