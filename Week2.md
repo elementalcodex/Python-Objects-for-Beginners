@@ -2,17 +2,32 @@
 ## Review
 ## Github clone
 ## Colab Basics
-Why so popular?
+Each code cell has its own play button so we can run different sections of code separately.
 
-Markdown text cells and formatting.
+## What are objects anyway?
+Everything in Python is an object.  Objects are helpful because we think about the world in terms of objects so if we think of our computer program in terms of objects it it will be easier to understand.  We will start to develop an intuition about where the code should go and how different parts will interact.
 
-Code cells and the play button.
+We looked at the dog object last time and we talked about how we can put the dog in the  car, we can give the dog a bath.  We can also interact with the dog and get it to do things like sit, eat, jump, sleep (maybe).  We interact with the dogs interface which is basically its facial expressions, its eyes, sense of smell, touching etc.  But we don't really pay much attention to what is going on inside the dog unless there is a problem (or you are a vet).
 
-Adding cells using +.
+All the objects in Python programming follow this same idea.  We interact with the objects through the things that they can do and we don't worry about what is behind the scenes.  
 
-## What are objects?
+There are basically two types of objects in Python: variables and functions.  The difference between them is that you can put parenthesis after functions and make them execute a command.  We can put things inside the parenthesis if we want to give more information to the program about the command.
+
+Some of the most useful functions for exploring objects are type, dir, print, and help.  We can pass the object to any of these functions to learn more about them.  
+
+__type__ gives us the kind of object it is.  This is called the object's class.  In the last class we ran type(spot) and we got dog.  Every object has a type and that is to say every object belongs to a class.
+
+__dir__ gives us all of the objects attributes.  These are the  things it does and how we interact with the object.  To have the object do something we put a period after its name and then the name of the method.  If this method is a function, which it should be, we put parenthesis after it to make it execute.
+
+__print__ gives us different things depending on what the person that created that type of object wants it to show.  In general people choose to make it print the value of the object.  For class dog, I'm going to make it print an update on how the dog is feeling in terms of happiness and health and energy.
+
+__help__ gives us some information about the object and how to use it.  This is usually a bit difficult to understand but it is good to know.
+
+Let's practice these with a dog object.  First let's come up with a name.  If we don't our object will be destroyed right after we make it.  How about dexter?
+Ok, now let's pass dexter to each of these four functions.
+
+
 Nothing magical, just easier to understand.  We think about the world in terms of objects.
-
 Anything can be an object and that's part of the appeal.  Anything you want in a computer program can be modeled as an object.
 
 We can do things to objects and we can get objects to do things we want.  How they do those things is only a concern to the person that invented the object type.
