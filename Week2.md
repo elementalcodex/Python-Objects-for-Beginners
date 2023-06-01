@@ -27,6 +27,9 @@ Let's practice these with a dog object.  First let's come up with a name.  If we
 Ok, now let's pass dexter to each of these four functions.
 
 
+
+
+
 Nothing magical, just easier to understand.  We think about the world in terms of objects.
 Anything can be an object and that's part of the appeal.  Anything you want in a computer program can be modeled as an object.
 
