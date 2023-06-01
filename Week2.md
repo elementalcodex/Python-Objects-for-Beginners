@@ -1,10 +1,10 @@
 # Week 2
-## Review
-## Github clone
-## Colab Basics
+## Review and Homework
+### Github clone
+### Colab Basics
 Each code cell has its own play button so we can run different sections of code separately.
 
-## What are objects anyway?
+### What are objects anyway?
 Everything in Python is an object.  Objects are helpful because we think about the world in terms of objects so if we think of our computer program in terms of objects it it will be easier to understand.  We will start to develop an intuition about where the code should go and how different parts will interact.
 
 We looked at the dog object last time and we talked about how we can put the dog in the  car, we can give the dog a bath.  We can also interact with the dog and get it to do things like sit, eat, jump, sleep (maybe).  We interact with the dogs interface which is basically its facial expressions, its eyes, sense of smell, touching etc.  But we don't really pay much attention to what is going on inside the dog unless there is a problem (or you are a vet).
@@ -23,8 +23,22 @@ __print__ gives us different things depending on what the person that created th
 
 __help__ gives us some information about the object and how to use it.  This is usually a bit difficult to understand but it is good to know.
 
-Let's practice these with a dog object.  First let's come up with a name.  If we don't our object will be destroyed right after we make it.  How about dexter?
-Ok, now let's pass dexter to each of these four functions.
+Let's practice these with a dog object. We need to import Dog because it isn't part of __\_\_builtins\_\___ but let's do that because it is a more colorful example. First let's come up with a name.  If we don't our object will be destroyed right after we make it.  How about dexter?  We use the equal sign to name the object we
+are making with the dog constructor.
+
+Ok, now let's pass dexter to each of these four functions.  We can see that Dexter is a dog.Dog, meaning it is a Dog object defined in a file called Dog.  You can see it here if you feel adventurous.  You probably won't understand much there but don't worry about it.  
+
+We can print Dexter and see what happens.  We can't really ever know what is going to happen because it is up to the person who invented the dog type to define that.  In this case I decided to show the Dog's happiness, energy, and health.  I made it so it would be kind of like a report on the dog's state.
+
+We can use the help function to get some information but we can use the question mark after it to get a simpler, more to the point help.  I recommend this.
+
+Finally can use dir to show all the things that Dexter can do.  We see the dunder methods and those methods are not meant to be used for the most part.  Those matter most to the person that invented the dog type of object.  We care about the other attributes because those are the ones we use to interact with the dog.  Those are the dogs senses  we can say or how we interact with the dog.  There are some new ones such as energy, health, and happiness (I know these are on the inside really but in our game we can observe them).  These new attributes and not functions.  They don't really do antying, they are kind of like a score.  So we can't put parenthesis around them and have them run code.  We can only look at the values.  We look at these by using the period and then the name of the attribute.  We can  also see what type they are.  When we do that we see that the type is int which stands for integer.  An integer is just a whole number.
+
+
+
+
+
+
 
 
 
