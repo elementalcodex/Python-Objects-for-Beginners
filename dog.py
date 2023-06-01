@@ -14,25 +14,25 @@ class Dog:
   def __str__(self):
     s = f'Dog\'s Status: \nHealth: {self.health}\nEnergy: {self.energy}\nHappiness: {self.happiness}'
     return s
-  def sound(self, sound_name):
+  def __sound__(self, sound_name):
     display(Audio('/content/Python-Objects-for-Beginners/dogsounds/' + sound_name, autoplay=True))
     time.sleep(2)
-  def image(self,img):
+  def __image__(self,img):
     i = Image.open('/content/Python-Objects-for-Beginners/dogpics/' + img)
     i.show()
     time.sleep(2)
   def bark(self):
-    self.sound('barks.wav')
+    self.__sound__('barks.wav')
   def whimper(self):
-    self.sound('whimpers.wav')
+    self.__sound__('whimpers.wav')
   def sniff(self):
-    self.sound('sniffs.wav')
+    self.__sound__('sniffs.wav')
   def eat_cake(self):
-    self.image('cake'+ str(rint(1,4)) + '.png')
+    self.__image__('cake'+ str(rint(1,4)) + '.png')
   def jump_hoop(self):
-    self.image('hoop'+ str(rint(1,4)) + '.png')
+    self.__image__('hoop'+ str(rint(1,4)) + '.png')
   def swim(self):
-    self.image('swim' + str(rint(1,4)) + '.png')
+    self.__image__('swim' + str(rint(1,4)) + '.png')
   def sleep(self):
-    self.image('sleep' + str(rint(1,4)) + '.png')
+    self.__image__('sleep' + str(rint(1,4)) + '.png')
 
