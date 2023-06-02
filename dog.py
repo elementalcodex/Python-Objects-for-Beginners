@@ -37,9 +37,9 @@ class Dog:
     self.__image__('sleep' + str(rint(1,4)) + '.png')
   def __add__(self, add_num):
     self.health  += add_num
-  def __div__(self, add_num):
+  def __truediv__(self, add_num):
     self.happiness  += add_num
-  def __mult__(self, add_num):
+  def __mul__(self, add_num):
     self.energy += add_num
 
    
