@@ -36,10 +36,11 @@ class Dog:
   def sleep(self):
     self.__image__('sleep' + str(rint(1,4)) + '.png')
   def __add__(self, add_num):
-    self.health  += add_nun
+    self.health  += add_num
   def __add__(self, add_num):
-    self.health  = min(self.health + rint(0, add_num), 100)
-    self.happiness  = min(self.happiness + rint(0, add_num), 100)
-    self.energy  = min(self.energy + rint(0, add_nun), 100)
+    self.happiness  += add_num
+  def __add__(self, add_num):
+    self.health  += add_num
+
    
-    
+   
