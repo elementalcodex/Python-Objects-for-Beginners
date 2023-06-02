@@ -40,7 +40,7 @@ class Dog:
   def __div__(self, add_num):
     self.happiness  += add_num
   def __mult__(self, add_num):
-    self.health  += add_num
+    self.energy += add_num
 
    
    
