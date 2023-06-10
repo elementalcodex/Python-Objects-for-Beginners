@@ -1,4 +1,4 @@
-# Week 2
+# Week 3
 ## Review and Homework
 ### Github clone
 ### Colab Basics
