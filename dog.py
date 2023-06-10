@@ -41,6 +41,12 @@ class Dog:
     self.happiness  += add_num
   def __mul__(self, add_num):
     self.energy += add_num
+  def change_energy(self, add_num):
+    self.energy += add_num
+  def change_happiness(self, add_num):
+    self.happiness+= add_num
+  def change_health(self, add_num):
+    self.health += add_num
 
    
    
