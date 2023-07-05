@@ -7,7 +7,9 @@ from random import randint as rint
 class Dog:
   """ This is the Dog class.  It defines what a dog object is. \n 
   The value of a dog object is it's health, happiness, and energy."""
-  def __init__(self):
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
     self.health = 50
     self.energy = 50
     self.happiness = 50
@@ -47,6 +49,8 @@ class Dog:
     self.happiness+= add_num
   def change_health(self, add_num):
     self.health += add_num
+  def greet(self):
+    print(f'Hello 😀 🐕!  My name is {self.name} and I am 7 * float(self.age) years old (in people years).  Also, I can write.')
 
    
    
