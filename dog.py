@@ -14,7 +14,7 @@ class Dog:
     self.energy = 50
     self.happiness = 50
   def __str__(self):
-    s = f'Dog\'s Status: /nHealth: {self.health}\nEnergy: {self.energy}/nHappiness: {self.happiness}'
+    s = f'Dog\'s Status: \nHealth: {self.health}\nEnergy: {self.energy}\nHappiness: {self.happiness}'
     return s
   def __sound__(self, sound_name):
     display(Audio('/content/Python-Objects-for-Beginners/dogsounds/' + sound_name, autoplay=True))
@@ -50,7 +50,7 @@ class Dog:
   def change_health(self, add_num):
     self.health += add_num
   def greet(self):
-    print(f'Hello 😀 🐕!  My name is {self.name}.  /nI am {7 * float(self.age)} years old (in people years).  /nAlso, I can write.')
+    print(f'Hello 😀 🐕!  My name is {self.name}.  \nI am {7 * float(self.age)} years old (in people years).  \nAlso, I can write.')
 
    
    
