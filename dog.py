@@ -50,7 +50,7 @@ class Dog:
   def change_health(self, add_num):
     self.health += add_num
   def greet(self):
-    print(f'Hello 😀 🐕!  My name is {self.name} and I am {7 * float(self.age)} years old (in people years).  Also, I can write.')
+    print(f'Hello 😀 🐕!  My name is {self.name}.  /nI am {7 * float(self.age)} years old (in people years).  /nAlso, I can write.')
 
    
    
