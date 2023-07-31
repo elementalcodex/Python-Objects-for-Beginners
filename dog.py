@@ -10,7 +10,7 @@ class Dog:
     time.sleep(2)
   def image(self,img):
     i = Image.open('/content/Python-Objects-for-Beginners/dogpics/' + img)
-    i.show()
+    display(i)
     time.sleep(2)
   def bark(self):
     self.sound('barks.wav')
